@@ -235,9 +235,15 @@ hr {
 .footer-links li {
   list-style: none;
 }
+.footer-links li a{
+  color: white;
+}
 .footer-contact ul {
   text-decoration: none;
 }
 .footer-contact li {
   list-style: none;
+}
+.footer-contact li a{
+  color: white;
 }
