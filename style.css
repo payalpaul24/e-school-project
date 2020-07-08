@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.navbar {
+  background: #f0fff0;
+}
+.navbar-nav a {
+  height: 30px;
+  padding: 3px;
+  transition: all 0.2s ease;
+}
+.navbar-nav a:hover {
+  color: #1d2b64 !important;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(180deg, lightsalmon, rgb(255, 123, 0));
+  border-image-slice: 1;
+}
+.navbar .navbar-brand {
+  margin-left: 100px;
+}
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+.navbar-nav a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.navbar-nav .sign {
+  color: white !important;
+  background: #21b573;
+  border: none;
+  text-align: center;
+  width: 90px;
+  border-radius: 20px;
+}
+.header-section {
+  margin-top: 80px;
+  padding: 40px;
+  background: #f0fff0;
+}
+.header-section h5 {
+  color: red;
+  font-size: 18px;
+  line-height: 24px;
+}
+.header-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+.header-section .color-range {
+  color: #21b573;
+}
+.header-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
+.header-section img {
+  width: 100%;
+}
+.buy-now {
+  color: white;
+  background: #21b573;
+  border: none;
+  margin-right: 5px;
+  border-radius: 33px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.categories .cat-row {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.categories .main-section {
+  background: #f0fff0;
+  box-shadow: 1px 1px 5px lightgrey;
+}
+.categories .main-section-even {
+  box-shadow: 5px 5px 13px lightgray;
+}
+.categories img {
+  width: 72px;
+  height: 91px;
+}
+.cat-row h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  margin-top: 25px;
+}
+.cat-row p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+.categories .cat-row img {
+  box-shadow: 3px 3px 8px lightgray;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.cat-row img:hover {
+  box-shadow: 5px 5px 10px lightgray;
+  transform: scale(1.4);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px lightgray;
+  padding: 25px 10px;
+}
+.course h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+.card img {
+  width: 100%;
+  transition: 1s;
+}
+.card img:hover {
+  transform: scaleY(-1);
+}
+.card-body h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.card-body p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+hr {
+  width: 100px;
+  border: 2px solid;
+  border-radius: 3px;
+  border-image: linear-gradient(45deg, #ec008c, #fc6767);
+  border-image-slice: 1;
+}
+.testimonial img {
+  width: 120px;
+  height: 120px;
+}
+.testimonial h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+.testimonial p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+.take-course {
+  background: #f0fff0;
+  border-radius: 10px;
+  padding: 20px;
+}
+.take-course h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+.take-course .email-form {
+  width: 100%;
+}
+
+.take-course .email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.take-course .email-form input,
+.take-course .email-form textarea,
+.take-course .email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+}
+
+.take-course .email-form input:focus,
+.take-course .email-form textarea:focus,
+.take-course .email-form select:focus {
+  border-color: #1977cc;
+}
+
+.take-course .email-form input,
+.take-course .email-form select {
+  height: 44px;
+}
+
+.take-course .email-form textarea {
+  padding: 10px 12px;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+.footer-top {
+  color: aqua;
+}
+.footer-links ul {
+  text-decoration: none;
+}
+.footer-links li {
+  list-style: none;
+}
+.footer-contact ul {
+  text-decoration: none;
+}
+.footer-contact li {
+  list-style: none;
+}
